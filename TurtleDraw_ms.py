@@ -14,7 +14,7 @@ import turtle
 screen = turtle.Screen()
 screen.setup(width=450, height=450)
 
-print("Enter file name (i.e., turtle-draw.txt):")
+print("Enter file name (i.e., TurtleDraw.txt):")
 TDraw = input()
 
 if os.path.exists(TDraw):
